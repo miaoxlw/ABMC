@@ -10,8 +10,7 @@ function [F, label1, iter_num, obj0, obj] = ABMC_ImprovedCD(L,W,F0,lam)
 % F is the label matrix of n samples n*c
 % iter_num is the number of iteration
 % obj is the objective function value
-%
-% Coded by Qimin Liang
+
 
 [n,~] = size(L);
 [~,c] = size(F0);
